@@ -1,0 +1,7 @@
+<nav class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+        {{#foreach navigation}}
+            <li class="pure-menu-item nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a class="pure-menu-link" href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+    </ul>
+</nav>

@@ -1,0 +1,21 @@
+{{!< default}}
+<main class="main_whitelake__" role="main">
+    {{#author}}
+        <div class="article_whitelake__ author_heading">
+            <p>Posts by: {{name}}</p>
+        </div>
+    {{/author}}
+    {{#foreach posts}}
+        <article class="article_whitelake__ index_whitelake__" role="article" itemscope itemtype="http://schema.org/Article">
+            {{>postheader}}
+            <div class="postcontent_whitelake__" itemprop="articleBody">
+                    {{excerpt}}... <a href="{{{url}}}">[continue reading]</a>
+            </div>
+        </article>
+    {{/foreach}}
+    {{#if pagination}}
+        <div class="pagination_whitelake__">
+            {{{pagination}}}
+        </div>
+    {{/if}}
+</main>

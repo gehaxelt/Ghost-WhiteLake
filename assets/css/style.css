@@ -1,0 +1,151 @@
+body {
+    background-color: #d4d2d2;
+    line-height: 1.5em;
+    color: #222;
+    font-size: 1.15em;
+}
+
+.page_whitelake__ {
+    background-color: white;
+    margin: 0px auto 0px auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.header_whitelake__ {
+    background-color: white;
+    color: #515151;
+    margin-bottom: 0.1em;
+    border-bottom: 1px solid #21759b;
+}
+
+.pure-menu-heading {
+    font-size: 1.5em;
+    padding: .5em 0.5em;
+    text-transform: capitalize;
+}
+
+nav li + li {
+    border-left: 1px solid #b0b0b0;
+}
+
+a:focus,
+a:hover {
+    color: #0181eb;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong {
+    color: #1863a1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.main_whitelake__,
+.footer_whitelake__ {
+    padding: 1em;
+}
+
+.blog_description_whitelake__ {
+    font-size: 0.7em;
+    text-transform: capitalize;
+}
+
+.footer_whitelake__ {
+    font-size: 0.8em;
+    color: #888;
+    background-color: white;
+    border-top: 1px solid #bfbfbf;
+}
+
+.footer_whitelake__ a {
+    color: #6b6b6b
+}
+
+time .postmetaentry_whitelake__ {
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.postmetaentry_whitelake__ {
+    color: #aaa;
+}
+
+.posttitle_whitelake__ {
+    margin-top: 0px;
+    margin-bottom: 0.1em;
+    font-size: 1.5em;
+}
+
+.posttitle_whitelake__ a {
+    text-decoration: none;
+}
+
+.postheader_whitelake__ {
+    border-bottom: 1px dotted #21759b;
+}
+
+.footer_postmeta_whitelake__ .beforedot_whitelake__::before {
+    content: "\2022 ";
+    padding: 0 .4em 0 .2em;
+    display: inline-block;
+}
+
+.footer_postmeta_whitelake__ {
+    margin-bottom: 0px;
+}
+
+.index_whitelake__ {
+    margin-bottom: 2em;
+}
+
+.pagination_whitelake__ {
+    text-align: center;
+}
+
+article ul {
+    list-style-type: none;
+}
+
+article ul li::before {
+    content: "• ";
+    color: #21759b;
+}
+
+blockquote {
+    border-left: 4px solid #21759b;
+    padding-left: 1em;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-left: 0px;
+}
+
+pre {
+    background-color: #002b36;
+    color: #93a1a1;
+    overflow: auto;
+    padding: 0.8em 1em;
+    line-height: 1.45em;
+    border: 1px solid #05232b;
+    font-size: 0.8em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

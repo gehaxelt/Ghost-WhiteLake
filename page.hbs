@@ -1,0 +1,14 @@
+{{!< default}}
+<main class="main_whitelake__" role="main">
+	{{#post}}
+		<article class="article_whitelake__" role="article" itemscope itemtype="http://schema.org/Article">
+			{{>pageheader}}
+			<div class="postcontent_whitelake__" itemprop="articleBody">
+				{{#if image}}
+					<img src="{{image}}" alt="{{title}}">
+				{{/if}}
+				{{content}}
+			</div>
+		</article>
+	{{/post}}
+</main>

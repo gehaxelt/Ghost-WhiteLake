@@ -1,0 +1,21 @@
+{{!< default}}
+<main class="main_whitelake__" role="main">
+	{{#post}}
+		<article class="article_whitelake__" role="article" itemscope itemtype="http://schema.org/Article">
+			{{>postheader}}
+			<div class="postcontent_whitelake__" itemprop="articleBody">
+				{{#if image}}
+					<img src="{{image}}" alt="{{title}}">
+				{{/if}}
+				{{content}}
+			</div>
+			<footer class="postfooter_whitelake__">
+				<p class="footer_postmeta_whitelake__">
+					<span>Posted by {{author}}</span>
+					<time class="beforedot_whitelake__ date_whitelake__" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">{{date format='DD MMM YYYY'}}</time>
+					<span class="beforedot_whitelake__ ">{{tags separator=", "}}</span>
+				</p>
+			</footer>
+		</article>
+	{{/post}}
+</main>
